@@ -310,7 +310,7 @@ input[type="text"]{
     text-align: center; 
 }
 
-.slider-dot a:hover{ color: rgba(241, 237, 237, 0.863); }
+.slider-dot a:hover{ color: rgba(241, 237, 237, .863); }
 
 .fas.fa-circle{ color: rgb(255,255,255); }
 
@@ -549,7 +549,126 @@ input[type="text"]{
     font-size: 12px;
     font-weight: bold;
 }
+/*form style start*/
+.form-section{
+    background-color:rgb(52,29,17);
+}
+.form-section-content{
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    padding: 100px 0;
+}
+.admission{
+    width: 700px;
+}
+.ad-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 15px;
+    color: rgb(255,255,255);
+}
+.welcome{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+.training{
+    font-size: 14px;
+    padding-top: 10px;
+    color: rgb(255,255,255);
+}
+.benefits{
+    padding-top: 40px;
+}
+.empower,.access{
+    width: 180px;
+    color: white;
+    display: inline-block;
+    margin-right: 110px;
+}
+.b-bckgnd{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: white;
+    opacity: 0.3;
+}
+.b-bckgnd a{
+    padding: 17px;
+    color: black;
+}
+.fas.fa-chart-line,.far.fa-clock{
+    
+}
+.empower-content{}
+.etitle{
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.eabout{
+    font-size: 12px;
+}
+.access{
+    
+}
+.admission-form{
+    width: 600px;
+    background: white;
+    border-radius: 5px;
+}
+form{
+    width: 400px;
+    margin: 50px auto;
+}
+label{
+    padding: 10px 0;
+    display: block;
+}
+form input[type="text"]{
+    width: 400px;
+    height: 25px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(190,195,195);
+    background-color: rgb(249,250,251);
+}
+form input[type="password"]{
+    width: 400px;
+    height: 24px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(190,195,195);
+    background-color: rgb(249,250,251);
+}
+form input[type=submit]{
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    margin-top: 25px;
+    background-color: rgb(243,0,103);
+    color: rgb(249,250,251);
+    font-weight: bold;
+    padding:10px 20px;
+}
 
+form input[type=submit]:hover{
+    background-color: rgb(249,250,251);
+    color: rgb(243,0,103);
+    border: 1px solid;
+    border-color: rgb(243,0,103);
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out;
+    transition:all .85s ease-in-out;
+    
+}
+/*for style end*/
 /* filter section end*/
 
 /*article section start*/
