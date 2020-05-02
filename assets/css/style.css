@@ -114,6 +114,7 @@ header {
     margin: 0 auto;
     background-color: rgb(37,43,51);
 }
+/*sign-in button styling start*/
 .signIn {
     width: 100px;
     display: inline-block;
@@ -131,6 +132,9 @@ header {
     border-left: 0.5px solid;
     border-color: rgb(243,0,103);
 }
+/*sign-in button styling end*/
+
+/*social icons styling start*/
 .social {
     display: inline-block;
     padding: 0 20px;
@@ -143,6 +147,9 @@ header {
 }
 .social-icons ul li a:hover{ color: rgb(243,0,103); }
 
+/*social icons styling end*/
+
+/*contact styling start*/
 .contact {
     float: right;
     padding-top: 7px;
@@ -161,9 +168,7 @@ header {
     font-size: 14px;
 }
 .phone a:hover,
-.email a:hover {
-    color: rgb(243,0,103);
-}
+.email a:hover { color: rgb(243,0,103); }
 /*=================================
   Header styling ends here
 =================================*/  
