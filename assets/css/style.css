@@ -340,6 +340,7 @@ input[type="text"]{
     margin-bottom: 50px;
 }
 .imgL:nth-child(1){ margin-right: 30px; }
+
 .imgL:nth-child(2),
 .imgL:nth-child(3){
     margin-right: 30px;
@@ -349,6 +350,11 @@ input[type="text"]{
  border-radius: 5px; 
  height: 290px; 
 }
+
+/*learn 2 section start */
+
+/*learn 2 section end */
+
 /*=================================
   main styling ends here
 =================================*/
