@@ -106,9 +106,8 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
-header {
-    background-color: rgb(37,43,51);
-}
+header { background-color: rgb(37,43,51); }
+
 .head1 {
     width: 98%;
     margin: 0 auto;
@@ -119,7 +118,9 @@ header {
     width: 100px;
     display: inline-block;
 }
+
 .btn { background-color: rgb(243,0,103); }
+
 .btn a{
     padding: 10px 20px;
     font-size: 14px;
@@ -139,6 +140,7 @@ header {
     display: inline-block;
     padding: 0 20px;
 }
+
 .social-icons ul li { padding: 0px 8px; }
 
 .social-icons ul li a {
@@ -176,14 +178,86 @@ header {
 /*=================================
   main styling starts here
 =================================*/
+/*logo styling start*/
+.banner{
+    width: 100%;
+    background-image: url(../images/banner.png);
+    background-size: cover;
+}
+.head2{
+    width: 98%;
+    margin: 0 auto;
+    padding: 25px 0;
+}
 
+.logo{
+    width: 100px;
+    display: inline-block;
+}
 
+h1 a img{ width: 100px; }
+/*logo styling start*/
 
+/*nav menu styling start*/
+.menu{
+    display: inline-block;
+    margin-left: 180px;
+}
 
+.fas.fa-bars{ display: none; }
 
+nav ul li {
+    width: 100px;
+    text-align: center;
+}
 
+nav ul li a{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+}
 
+nav ul li a:hover{
+    border-bottom: solid;
+    border-bottom-color: rgb(243,0,103);
+}
 
+.cap{ text-transform: uppercase; }
+
+/*nav menu styling end*/
+/*search-bar styling start*/
+.search-bar {
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    padding: 4px;
+    float: right;
+}
+.ins-search,
+.insert-txt,
+.search-btn{ display: inline; }
+
+.search-btn a{
+    padding: 7px 18px;
+    background-color: rgb(243,0,103);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-btn a:hover {
+    background-color: white;
+    color: rgb(243,0,103);
+}
+input[type="text"]{
+    width: 120px;
+    padding: 3px;
+    border: none;
+    background: transparent;
+}
+::placeholder{ color: white; }
+/*search-bar styling start*/
 /*=================================
   main styling ends here
 =================================*/
