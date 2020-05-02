@@ -574,6 +574,58 @@ input[type="text"]{
     text-align: justify;
     float: right;
 }
+
+/*student-slider start*/
+.student-slider{
+    
+}
+.slides2{}
+.slide2{}
+.slide2 showing{}
+.stud-img{
+    width: 100px;
+    height: 100px;
+    background: wheat;
+    border-radius: 100px;
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.slide2 p:nth-child(2){
+    padding: 30px 220px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(136, 138, 138);
+}
+.slide2 p:nth-child(3){
+    text-align: center;
+    font-weight: bold;
+    
+}
+.slide2 p:nth-child(4){
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(136, 138, 138);
+}
+.company{
+    color: rgb(0,211,219);
+}
+.rating{
+    text-align: center;
+    padding: 25px;
+}
+.fas.fa-star,.fas.fa-circle.active{ color: rgb(243,0,103); }
+
+.fa-star.stud-rate{ color: rgba(219, 217, 217, 0.863); }
+
+.slider2-dot{ text-align: center; }
+.slider2-dot .fas.fa-circle{ color: rgba(219, 217, 217, 0.863); }
+
+.fas.fa-circle.active{ color: rgb(243,0,103); }
+
+.fas.fa-circle:hover{ color: rgb(190,195,195); }
+
+/*student-slider end*/
 /*article section end*/
 /*=================================
   main styling ends here
