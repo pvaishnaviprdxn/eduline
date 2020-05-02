@@ -503,6 +503,18 @@ input[type="text"]{
     font-weight: bold;
 }
 
+.busi:hover,
+.mang:hover,
+.lang:hover{
+    box-shadow: 5px 2px 15px rgba(0,0,0,.4);
+    transform: scale(1.1);
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out ;
+    transition:all .85s ease-in-out ;
+}
+
 .remark{
     display: flex;
     flex-wrap: nowrap;
@@ -518,10 +530,6 @@ input[type="text"]{
 .people a,.likes a{ 
     color: rgb(190,195,195);
     font-size: 14px;
-}
-
-.likes{
-    
 }
 
 .price{
