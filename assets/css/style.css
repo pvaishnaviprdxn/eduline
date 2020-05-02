@@ -316,7 +316,39 @@ input[type="text"]{
 
 .fas.fa-circle.active{ color: rgb(243,0,103); }
 /*slider styling end*/
+.learn-today1{ margin:80px 0; }
 
+.about-learn-today{ display: flex; }
+
+.about-learn-today h2 {
+    width: 350px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.about-learn-today p{
+    width: 700px;
+    padding-left: 30px;
+    padding-top: 8px;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: justify;
+    float: right;
+}
+.learn-images{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.imgL:nth-child(1){ margin-right: 30px; }
+.imgL:nth-child(2),
+.imgL:nth-child(3){
+    margin-right: 30px;
+}
+.imgL,
+.imgL img{
+ border-radius: 5px; 
+ height: 290px; 
+}
 /*=================================
   main styling ends here
 =================================*/
