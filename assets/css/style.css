@@ -550,44 +550,48 @@ input[type="text"]{
     font-weight: bold;
 }
 /*form style start*/
-.form-section{
-    background-color:rgb(52,29,17);
-}
+.form-section{ background-color:rgb(52,29,17); }
+
 .form-section-content{
     width: 86%;
     margin: 0 auto;
     display: flex;
     padding: 100px 0;
 }
+
 .admission{
     width: 700px;
 }
+
 .ad-title h2{
     font-size: 40px;
     font-weight: bold;
     padding-top: 15px;
     color: rgb(255,255,255);
 }
+
 .welcome{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: bold;
     color: rgb(255,255,255);
 }
+
 .training{
     font-size: 14px;
     padding-top: 10px;
     color: rgb(255,255,255);
 }
-.benefits{
-    padding-top: 40px;
-}
+
+.benefits{ padding-top: 40px; }
+
 .empower,.access{
     width: 180px;
     color: white;
     display: inline-block;
     margin-right: 110px;
 }
+
 .b-bckgnd{
     width: 50px;
     height: 50px;
@@ -595,25 +599,23 @@ input[type="text"]{
     background: white;
     opacity: 0.3;
 }
+
 .b-bckgnd a{
     padding: 17px;
     color: black;
 }
+
 .fas.fa-chart-line,.far.fa-clock{
     
 }
-.empower-content{}
+
 .etitle{
     padding: 10px 0;
     font-size: 18px;
     font-weight: bold;
 }
-.eabout{
-    font-size: 12px;
-}
-.access{
-    
-}
+.eabout{ font-size: 12px; }
+
 .admission-form{
     width: 600px;
     background: white;
@@ -672,12 +674,10 @@ form input[type=submit]:hover{
 /* filter section end*/
 
 /*article section start*/
-.students{
-    margin-top:70px;
-}
-.about-students{
-    display: flex;
-}
+.students{ margin-top:70px; }
+
+.about-students{ display: flex; }
+
 .about-students h2{
     width: 350px;
     font-size: 38px;
@@ -695,12 +695,10 @@ form input[type=submit]:hover{
 }
 
 /*student-slider start*/
-.slides2 li{
-    display: none;
-}
-.slide2.showing{
-    display: block;
-}
+.slides2 li{ display: none; }
+
+.slide2.showing{ display: block; }
+
 .stud-img{
     width: 100px;
     height: 100px;
@@ -728,6 +726,7 @@ form input[type=submit]:hover{
     color: rgb(136, 138, 138);
 }
 .company{ color: rgb(0,211,219); }
+
 .rating{
     text-align: center;
     padding: 25px;
