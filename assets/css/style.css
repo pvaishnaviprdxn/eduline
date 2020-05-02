@@ -401,6 +401,27 @@ input[type="text"]{
     font-size: 15px;
     font-weight: bold;
 }
+/* online-courses start*/
+.online-courses{ padding: 70px 0; }
+
+.about-oc{ display: flex; }
+
+.about-oc h2{
+    font-size: 34px;
+    font-weight: bold;
+    padding-top: 14px;
+}
+
+.about-oc p{
+    width: 700px;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: justify;
+    float: right;
+    padding-left: 50px;
+}
+/* online-courses end*/
+
 /*=================================
   main styling ends here
 =================================*/
