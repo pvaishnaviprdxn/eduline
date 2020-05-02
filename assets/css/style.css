@@ -422,6 +422,124 @@ input[type="text"]{
 }
 /* online-courses end*/
 
+/* filter section start*/
+
+.buttons{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.butn{
+    background: transparent;
+    border: none;
+}
+
+.butn.active{ color: rgb(0,211,219); }
+
+.img-row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column:nth-child(1),
+.column:nth-child(2),
+.column:nth-child(3),
+.column:nth-child(5),
+.column:nth-child(6),
+.column:nth-child(7){ margin-right: 28px; }
+
+.column{
+    float: left;
+    margin-bottom: 28px;
+}
+.show{
+    display: block;
+}
+.content-fil{
+    width: 250px;
+}
+
+
+
+.creative img,
+.tech img,
+.bness img,
+.graphs img,
+.literature img,
+.lngs img,
+.development img{
+    width: 250px;
+    border-top-right-radius:5px;
+    border-top-left-radius:5px;
+}
+.lang,
+.development,
+.tech,
+.bness,
+.graphs,
+.literature,
+.lngs,
+.creative{ 
+    background-color: rgb(249,250,251);
+    padding-bottom: 20px;
+}
+.lang{
+    padding-bottom: 0;
+}
+.instructor{
+    padding-top: 18px;
+    padding-left: 12px;
+    font-size: 14px;
+    color:rgb(0,211,219);
+    font-weight: bold;
+}
+
+.course-name{
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.remark{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.people,.likes{
+    width: 32%;
+    padding-top: 5.5px;
+    padding-left: 12px;
+}
+
+.people a,.likes a{ 
+    color: rgb(190,195,195);
+    font-size: 14px;
+}
+
+.likes{
+    
+}
+
+.price{
+    width: 32%;
+    padding: 4px 0;
+    border-radius: 4px;
+}
+
+.price a{
+    padding: 5px 11px;
+    background-color: rgb(37,43,51);
+    color: rgb(255,255,255);
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* filter section end*/
 /*=================================
   main styling ends here
 =================================*/
