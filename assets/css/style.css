@@ -402,7 +402,10 @@ input[type="text"]{
     font-weight: bold;
 }
 /* online-courses start*/
-.online-courses{ padding: 70px 0; }
+.online-courses{ 
+    padding-top: 70px;
+    padding-bottom: 40px;
+ }
 
 .about-oc{ display: flex; }
 
@@ -548,6 +551,30 @@ input[type="text"]{
 }
 
 /* filter section end*/
+
+/*article section start*/
+.students{
+    
+}
+.about-students{
+    display: flex;
+}
+.about-students h2{
+    width: 350px;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.about-students p{
+    width: 700px;
+    padding-left: 30px;
+    padding-top: 8px;
+    line-height: 1.8;
+    font-size: 14px;
+    text-align: justify;
+    float: right;
+}
+/*article section end*/
 /*=================================
   main styling ends here
 =================================*/
