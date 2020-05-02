@@ -316,7 +316,7 @@ input[type="text"]{
 
 .fas.fa-circle.active{ color: rgb(243,0,103); }
 /*slider styling end*/
-.learn-today1{ margin:80px 0; }
+.learn-today1{ margin:70px 0; }
 
 .about-learn-today{ display: flex; }
 
@@ -352,9 +352,55 @@ input[type="text"]{
 }
 
 /*learn 2 section start */
+.l-facilities{ background-color: rgb(249,250,251); }
+
+.learn-today2{ padding: 80px 0; }
+
+.eduline-facilities{ padding: 50px 0; }
+
+.facility-flex{ display: flex; }
+
+.facility-icon a{ 
+    color: rgb(243,0,103);
+    font-size: 22px;
+    
+}
+
+.about-fac p:nth-child(2){  color: rgb(136, 138, 138) }
+
+.fac-name{ 
+    font-weight: bold;
+    padding: 8px 0;
+    font-size: 20px;
+}
 
 /*learn 2 section end */
 
+.bck-img{
+    width: 100%;
+    height: 150px;
+    background-image:url(../images/people.jpg);
+    background-size: cover;
+}
+
+.statlist li{
+    width: 24%;
+    padding: 42px 0;
+    text-align: center;
+}
+
+.count{ 
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.status{
+    padding: 6px 0;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
 /*=================================
   main styling ends here
 =================================*/
