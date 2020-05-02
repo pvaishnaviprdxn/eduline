@@ -106,8 +106,64 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+header {
+    background-color: rgb(37,43,51);
+}
+.head1 {
+    width: 98%;
+    margin: 0 auto;
+    background-color: rgb(37,43,51);
+}
+.signIn {
+    width: 100px;
+    display: inline-block;
+}
+.btn { background-color: rgb(243,0,103); }
+.btn a{
+    padding: 10px 20px;
+    font-size: 14px;
+    color: white;
+}
+.btn a:hover { 
+    color: rgb(243,0,103);
+    background-color:white;
+    border-right: 0.5px solid;
+    border-left: 0.5px solid;
+    border-color: rgb(243,0,103);
+}
+.social {
+    display: inline-block;
+    padding: 0 20px;
+}
+.social-icons ul li { padding: 0px 8px; }
 
+.social-icons ul li a {
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+.social-icons ul li a:hover{ color: rgb(243,0,103); }
 
+.contact {
+    float: right;
+    padding-top: 7px;
+}
+
+.phone {
+    display: inline;
+    padding: 0 50px;
+}
+
+.email{ display: inline; }
+
+.phone a,
+.email a {
+    color: rgb(255,255,255);
+    font-size: 14px;
+}
+.phone a:hover,
+.email a:hover {
+    color: rgb(243,0,103);
+}
 /*=================================
   Header styling ends here
 =================================*/  
