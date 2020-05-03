@@ -932,5 +932,135 @@ form input[type=submit]:hover{
     }
 }
 @media only screen and (max-width: 540px){
+    .contact{
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .phone,
+    .email{
+        text-align: center; 
+        padding: 0;
+    }
+
+    .phone a,
+    .email a{ width: 49%; }
+
+    .fas.fa-bars{
+        display: inline-block;
+        margin-left: 260px ;
+    }
+
+    .menu ul,.search-bar{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    .menu ul li{
+        padding: 12px 6px;
+        border-bottom: 1px solid #54d0b2;
+        display: block;
+        background-color: #fff;
+    }
+
+    .slides li h2{ padding: 0 45px; }
+
+    .about-learn-today,
+    .about-oc,
+    .about-students{display: inline-block;}
+
+    .about-learn-today h2,
+    .about-oc h2,
+    .about-students h2{width: 100%;}
+
+    .about-learn-today p,
+    .about-oc p,
+    .about-students p{ 
+        width: 100%;
+        padding: 15px 0;
+    }
+
+    .learn-images{ display: block;  }
+    .imgL img { width: 100%; }
+
+    .imgL:nth-child(1),
+    .imgL:nth-child(3),
+    .imgL:nth-child(2), 
+    .imgL:nth-child(4) {
+        margin-bottom: 28px;
+        margin-right: 0;}
+
+    .facility-flex { display: block; }
+
+    .fac1,
+    .fac3,
+    .fac1,
+    .fac2 { 
+        width: 100%;
+        margin-bottom: 20px; }
+
+    .facility-icon a { font-size: 28px; }
+
+    .eduline-status,
+    .bck-img{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .statlist{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .statlist li{ padding: 25px 50px; }
+    .column{ width: 100%; }
+    .content-fil{ width: 100%; }
+
+    .content-fil, 
+    .creative img, 
+    .tech img, 
+    .bness img, 
+    .graphs img, 
+    .literature img, 
+    .lngs img, 
+    .development img {
+        width: 100%;
+    }
+    
+    .course-name { font-size: 28px; }    
+    .instructor, 
+    .people a, 
+    .likes a, 
+    .welcome { font-size: 14px; }
+    .course-name,   
+    .instructor{ padding-left: 30px;}
+    .people,.likes{
+        font-size: 24px;
+        padding-left: 36px;
+    }
+    .price a{ padding: 10px 16px }
+    .form-section-content { display: block; }
+    
+    .empower,
+    .access { width: 100%; }
+
+    .etitle{ font-size: 20px; }
+    .eabout{ font-size: 13px; }
+    .access{ padding-top: 30px; }
+
+    .admission-form{ width: 416px; }
+
+    form input[type="text"], 
+    form input[type="password"]{
+        width:320px ;
+    }
+}
+@media only screen and (max-width: 320px){
+
+      
 
 }
