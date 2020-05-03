@@ -1148,4 +1148,8 @@ form input[type=submit]:hover{
         height: 20px;
         border-radius: 4px;
     }
+    .slide2 p:nth-child(2){
+        padding: 20px 10px;
+        font-size: 12px;
+    }
 }
