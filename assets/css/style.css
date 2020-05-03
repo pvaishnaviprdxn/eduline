@@ -827,3 +827,110 @@ form input[type=submit]:hover{
     .slide2 p:nth-child(3),
     .slide2 p:nth-child(4){font-size: 14px;}
 }  
+
+@media only screen and (max-width: 767px){
+    .fas.fa-bars{
+        display: inline-block;
+        font-size: 32px;
+        color: rgb(255,255,255);
+        margin-left: 518px;
+    }
+
+    .menu ul,.search-bar{
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        left: 0;
+    }
+
+    .menu ul li{
+        padding: 12px 6px;
+        border-bottom: 1px solid #54d0b2;
+        display: block;
+        background-color: #fff;
+    }
+
+    .slides li h2{ padding: 0 45px; }
+
+    .about-learn-today,
+    .about-oc,
+    .about-students{display: inline-block;}
+
+    .about-learn-today h2,
+    .about-oc h2,
+    .about-students h2{width: 100%;}
+
+    .about-learn-today p,
+    .about-oc p,
+    .about-students p{ 
+        width: 100%;
+        padding: 15px 0;
+    }
+    .learn-images{ 
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .imgL img { width: 300px; }
+
+    .imgL:nth-child(1),
+    .imgL:nth-child(3){ margin-bottom: 28px; }
+
+    .imgL:nth-child(2), 
+    .imgL:nth-child(4) { margin-right: 0; }
+    .facility-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .fac1,.fac3 { width: 55%; }
+    .fac1,.fac2 { margin-bottom: 20px; }
+
+    .facility-icon a { font-size: 28px; }
+
+    .eduline-status,
+    .bck-img{border-radius: 5px;}
+
+    .content-fil, 
+    .creative img, 
+    .tech img, 
+    .bness img, 
+    .graphs img, 
+    .literature img, 
+    .lngs img, 
+    .development img {
+        width: 138px;
+    }
+    .course-name { font-size: 18px; }    
+    .instructor, 
+    .people a, 
+    .likes a, 
+    .welcome { font-size: 10px; }
+
+    .price a{ padding: 3px 6px }
+    .form-section-content { display: block; }
+    .admission { width: 100%; }
+    .welcome { font-size: 12px; }
+    .training {font-size: 14px;}
+    .empower,
+    .access {width: 40%;}
+    form {
+        width: auto;
+        padding:40px 0;
+    }
+    form input[type="text"], 
+    form input[type="password"]{
+        width: 500px;
+    }
+    .student-slider{
+        padding-top: 20px;
+    }
+    .stud-img{
+        margin: 0 auto;
+    }
+    .slide2 p:nth-child(2){
+        padding: 30px 61px;
+    }
+}
+@media only screen and (max-width: 540px){
+
+}
