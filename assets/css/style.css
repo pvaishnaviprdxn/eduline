@@ -132,6 +132,11 @@ header { background-color: rgb(37,43,51); }
     border-right: 0.5px solid;
     border-left: 0.5px solid;
     border-color: rgb(243,0,103);
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out;
+    transition:all .95s ease-in-out;
 }
 /*sign-in button styling end*/
 
@@ -147,7 +152,8 @@ header { background-color: rgb(37,43,51); }
     color: rgb(255,255,255);
     font-size: 14px;
 }
-.social-icons ul li a:hover{ color: rgb(243,0,103); }
+.social-icons ul li a:hover{ color: rgb(243,0,103);
+}
 
 /*social icons styling end*/
 
@@ -298,8 +304,14 @@ input[type="text"]{
 }
 
 .slides li a:hover{
+    border: none;
     background-color: rgb(243,0,103);
     color: rgb(255,255,255);
+    -moz-transition:all .85s ease-in-out;
+    -webkit-transition:all .85s ease-in-out;
+    -ms-transition:all .85s ease-in-out;
+    -o-transition:all .85s ease-in-out;
+    transition:all .85s ease-in-out;
 }
 
 .slide.showing{ display: block; }
