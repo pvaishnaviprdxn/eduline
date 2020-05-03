@@ -785,7 +785,45 @@ form input[type=submit]:hover{
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-
-
+    .menu{ margin-left: 80px; }
+    .slides li h2{ font-size: 30px; }
+    .about-learn-today h2,.about-oc h2,.about-students h2{ font-size: 30px; }
+    .about-learn-today p, .about-oc p,.about-students p { font-size: 12px; }
+    .facility-icon a { font-size: 18px; }
+    .fac-name { font-size: 18px; }
+    .about-fac p:nth-child(2){font-size: 14px;}
+    .content-fil,
+    .creative img, 
+    .tech img, .bness img, 
+    .graphs img, .literature img, 
+    .lngs img, 
+    .development img{ width: 189px; }
+    .instructor, 
+    .people a, 
+    .likes a,
+    .welcome{ font-size: 12px;}
+    .course-name { font-size: 16px;}
+    .price a{ font-size: 10px;}
+    .ad-title h2{ font-size: 34px;}
+    .training{ font-size: 11px;}
+    .empower,
+    .access{ margin-right: 30px; }
+    .etitle{ font-size: 16px;}
+    .eabout{ font-size: 10px; }
+    label {
+        padding: 8px 40px;
+        font-size: 14px;
+    }
+    form { margin: 30px auto; }
+    form input[type="text"],
+    form input[type="password"]{
+        width: 300px;
+        margin-left: 40px;
+        height: 20px;
+    }
+    form input[type=submit]{ margin-left: 40px; }
+    .stud-img{ margin-left: 350px;}
+    .slide2 p:nth-child(2){font-size: 12px;}
+    .slide2 p:nth-child(3),
+    .slide2 p:nth-child(4){font-size: 14px;}
 }  
