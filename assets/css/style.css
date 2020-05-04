@@ -928,7 +928,6 @@ h3{
 .footr2{
     width: 86%;
     margin: 0 auto;
-    padding-top: 20px;
 }
 .copyright{
     display: inline-block;
@@ -950,6 +949,16 @@ h3{
 .footr2 .social{
     float: right;
     padding: 0;
+}
+.toup{
+    display: block;
+}
+.toup a{
+    border-radius: 30px;
+    background-color: rgb(243,0,103);
+    color: white;
+    padding: 6px 10px;
+    float: right;
 }
  /*=================================
   footer styling ends here
