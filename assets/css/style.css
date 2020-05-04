@@ -788,12 +788,8 @@ footer{
     width: 217px;
     margin-right: 78px;
 }
-h3{
-    margin-bottom: 25px;
-}
-.ff1 h3 a img{
-    width: 80px;
-}
+h3{ margin-bottom: 25px; }
+.ff1 h3 a img{ width: 80px; }
 .Address,
 .femail,
 .fphone{
@@ -805,43 +801,47 @@ h3{
     font-size: 16px;
     line-height: 1;
 }
-.location,.fmail,.fphn{
+.location,
+.fmail,
+.fphn{
     color: rgb(118, 129, 150);
     font-size: 14px;
     line-height: 1.4;
 }
-.location:hover,.fmail:hover ,.fphn:hover,.pages li a:hover{
+.location:hover,
+.fmail:hover,
+.fphn:hover,
+.pages li a:hover{
     text-decoration: underline;
     color: rgb(255,255,255);
 }
 
-.fmail,.fphn{
-    display: block;
-}
-.ff2{
-   width:150px;
-}
+.fmail,
+.fphn{display: block;}
+.ff2{width:150px;}
+
 .ptitle,
 .fart-title,
 .ntitle{
     color: rgb(255,255,255);
     font-weight: bold;
 }
-.pages ul,.farticles{
-    margin-top: 35px;
-}
+.pages ul,
+.farticles{margin-top: 35px;}
+
 .pages li{
     display: block;
     font-size: 14px;
     line-height: 1.8;
 }
-.pages li a,.art1,.art2,.adate{
+.pages li a,
+.art1,
+.art2,
+.adate{
     color: rgb(118, 129, 150);
     font-size: 14px;
 }
-.ff3{
-    display: inline-block;
-}
+.ff3{display: inline-block;}
 .farticles li{
     display: block;
     margin-bottom: 20px;
@@ -850,7 +850,6 @@ h3{
 .fimg img{
     width: 110px;
     height: 60px;
-    
 }
 .fimg{
     width: 110px;
@@ -863,7 +862,8 @@ h3{
     margin-bottom: 20px;
     line-height: 1.5;
 }
-.art1,.art2{
+.art1,
+.art2{
     width: 150px;
     font-size: 13px;
     color: rgb(255,255,255);
@@ -872,7 +872,8 @@ h3{
     display:block;
     font-size: 11px;
 }
-.art1:hover,.art2:hover{
+.art1:hover,
+.art2:hover{
     color: rgb(243,0,103);
     text-decoration: underline;
 }  
@@ -880,7 +881,6 @@ h3{
     margin-left: 20px;
     width: 350px;
 }
-
 .nbox{
     width: 100%;
     height: auto;
@@ -901,8 +901,6 @@ h3{
     background-color: rgb(0,209,205);
     border-radius: 5px;
   }
- 
-  
 .insert-txt{ display: inline-block; }
 .send{
     display: inline;
@@ -929,36 +927,25 @@ h3{
     width: 86%;
     margin: 0 auto;
 }
-.copyright{
-    display: inline-block;
-    
-}
-.cpy{
-    color:rgb(118, 129, 150); 
-}
-.w3L{
-    color: rgb(255,255,255);
-}
+.copyright{display: inline-block;}
+.cpy{color:rgb(118, 129, 150); }
+.w3L{ color: rgb(255,255,255); }
 .ibck{
     background-color:rgb(99, 108, 124,0.7);
     border-radius: 26px;
 }
-.ibck a{
-    padding: 8px 0;
-}
+.ibck a{padding: 8px 0;}
 .footr2 .social{
     float: right;
     padding: 0;
 }
-.toup{
-    display: block;
-}
+.toup{display: block;}
 .toup a{
     border-radius: 30px;
     background-color: rgb(243,0,103);
     color: white;
     padding: 6px 10px;
-    float: right;
+    
 }
  /*=================================
   footer styling ends here
@@ -1014,24 +1001,14 @@ h3{
 
 
     .ff1 {
-    margin-right: 30px;
-    width: 140px;
+        margin-right: 30px;
+        width: 140px;
     }
-    .ff2 {
-    width: 120px;
-    }
-    .ff3 {
-    display: inline-block;
-    }
-    .ff4 {
-    width: 286px;
-    }
-    .news-bar {
-    padding: 18px;
-    }
-    .insert-txt input[type="text"] {
-    width: 171px;
-    }
+    .ff2 {width: 120px;}
+    .ff3 {display: inline-block;}
+    .ff4 {width: 286px;}
+    .news-bar {padding: 18px;}
+    .insert-txt input[type="text"] {width: 171px;}
 }
 @media only screen and (max-width: 995px) {
     .menu{ margin-left: 80px; }
@@ -1076,12 +1053,8 @@ h3{
     .slide2 p:nth-child(3),
     .slide2 p:nth-child(4){font-size: 14px;}
   
-    .ff4 {
-        width: 260px;
-    }
-    .insert-txt input[type="text"] {
-        width: 145px;
-    }
+    .ff4 {width: 260px;}
+    .insert-txt input[type="text"] {width: 145px;}
 }
 @media only screen and (max-width: 767px){
     .fas.fa-bars{
@@ -1152,15 +1125,12 @@ h3{
     .graphs img, 
     .literature img, 
     .lngs img, 
-    .development img {
-        width: 138px;
-    }
+    .development img {width: 138px;}
     .course-name { font-size: 18px; }    
     .instructor, 
     .people a, 
     .likes a, 
     .welcome { font-size: 10px; }
-
     .price a{ padding: 3px 6px }
     .form-section-content { display: block; }
     .admission { width: 100%; }
@@ -1173,34 +1143,21 @@ h3{
         padding:40px 0;
     }
     form input[type="text"], 
-    form input[type="password"]{
-        width: 500px;
-    }
-    .student-slider{
-        padding-top: 20px;
-    }
-    .stud-img{
-        margin: 0 auto;
-    }
-    .slide2 p:nth-child(2){
-        padding: 30px 61px;
-    }
-    .ff1
-    {
+    form input[type="password"]{ width: 500px;}
+    .student-slider{padding-top: 20px;}
+    .stud-img{ margin: 0 auto; }
+    .slide2 p:nth-child(2){ padding: 30px 61px; }
+    .ff1{ 
         margin-right: 30px;
         width: 60%;
     }
-    .location{
-        display: block;
-    }
+    .location{display: block;}
     .ff3{
         width: 325px;
         margin-right: 40px;
         margin-top: 20px;
     }
-    .nbox{
-        margin-top: 52px;
-    }
+    .nbox{ margin-top: 52px;}
 }
 @media only screen and (max-width: 540px){
     .contact{
@@ -1298,9 +1255,7 @@ h3{
     .graphs img, 
     .literature img, 
     .lngs img, 
-    .development img {
-        width: 100%;
-    }
+    .development img {width: 100%;}
     
     .course-name { font-size: 28px; }    
     .instructor, 
@@ -1326,9 +1281,7 @@ h3{
     .admission-form{ width: 416px; }
 
     form input[type="text"], 
-    form input[type="password"]{
-        width:320px ;
-    }
+    form input[type="password"]{ width: 320px;}
     .ff3{
         width: 275px;
         margin-right: 0;
@@ -1338,19 +1291,22 @@ h3{
         margin-left: 0;
         margin-right: 0;
     }
-    .ftitle,.ptitle,.fart-title,.ntitle
-    {
-        font-size: 14px;
-    }
+    .ftitle,
+    .ptitle,
+    .fart-title,
+    .ntitle{font-size: 14px;}
+
     .pages li a,
     .location,
     .fmail,
-    .fphn,.art1,.art2,.ndesc,.nname{
-        font-size: 12px;
-    }
-    .adate{
-        font-size: 10px;
-    }
+    .fphn,
+    .art1,
+    .art2,
+    .ndesc,
+    .nname{font-size: 12px;}
+
+    .adate{font-size: 10px;}
+
     .insert-txt input[type="text"] {
         width: 70px;
         font-size: 8px;
@@ -1365,27 +1321,19 @@ h3{
         margin-top: 10px;
         margin-left:143px;
     }
-
 }
 @media only screen and (max-width: 320px){
-    .signIn{
-        width: auto;
-    }
-    .btn a{
-        padding:8px 10px;
-    }
-    .social{
-        padding: 0 10px;
-    } 
-    .contact{
-        display: inline-block;
-    }
+    .signIn{width: auto;}
+    .btn a{padding:8px 10px;}
+    .social{padding: 0 10px;} 
+    .contact{display: inline-block;}
     .phone,
     .email{
         width: 49%;
         text-align: center;
     }
-    .phone a,.email a{
+    .phone a,
+    .email a{
         padding:0 10px;
         display: inline;
         font-size: 10px;
@@ -1412,9 +1360,7 @@ h3{
     .graphs img, 
     .literature img, 
     .lngs img, 
-    .development img {
-        width: 100%;
-    }
+    .development img {width: 100%;}
     
     .course-name { font-size: 18px; }    
     .instructor, 
@@ -1431,12 +1377,9 @@ h3{
     }
     .price a{ padding: 8px 10px }
     .welcome{font-size: 11px;}
-    .ad-title h2{
-        font-size: 20px;
-    }
-    .ad-title p{
-        font-size: 11px;
-    }
+    .ad-title h2{font-size: 20px;}
+    .ad-title p{font-size: 11px;}
+
     .empower,
     .access { width: 100%; }
 
@@ -1445,9 +1388,7 @@ h3{
     .access{ padding-top: 30px; }
 
     .admission-form{ width: 200px; }
-    .form{
-        padding:0;
-    }
+    .form{ padding:0; }
 
     form input[type="text"], 
     form input[type="password"]{
@@ -1460,7 +1401,10 @@ h3{
         padding: 20px 10px;
         font-size: 12px;
     }
-    .ftitle,.ptitle,.fart-title,.ntitle
+    .ftitle,
+    .ptitle,
+    .fart-title,
+    .ntitle
     {
         font-size: 14px;
     }
@@ -1470,7 +1414,9 @@ h3{
     .pages li a,
     .location,
     .fmail,
-    .fphn,.art1,.art2{
+    .fphn,
+    .art1,
+    .art2{
         font-size: 12px;
     }
     .adate{
