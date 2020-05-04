@@ -771,18 +771,22 @@ form input[type=submit]:hover{
 =================================*/
 footer{
     background-color: rgb(37,43,51);
+    padding-bottom: 50px;
 } 
 .footr1{
     width: 86%;
     margin: 0 auto;
-    padding: 50px;
+    border-bottom: 1px solid;
+    border-bottom-color: rgb(72, 81, 92);
 }
 .footer-flex{
     display: flex;
     flex-wrap: wrap;
+    padding: 50px 0;
 }
 .ff1{
-    width:200px;
+    width: 217px;
+    margin-right: 78px;
 }
 h3{
     margin-bottom: 25px;
@@ -802,7 +806,7 @@ h3{
     line-height: 1;
 }
 .location,.fmail,.fphn{
-    color: rgb(96, 99, 104);
+    color: rgb(118, 129, 150);
     font-size: 14px;
     line-height: 1.4;
 }
@@ -818,7 +822,8 @@ h3{
    width:150px;
 }
 .ptitle,
-.fart-title{
+.fart-title,
+.ntitle{
     color: rgb(255,255,255);
     font-weight: bold;
 }
@@ -830,8 +835,8 @@ h3{
     font-size: 14px;
     line-height: 1.8;
 }
-.pages li ,.art1,.adate{
-    color: rgb(96, 99, 104);
+.pages li a,.art1,.art2,.adate{
+    color: rgb(118, 129, 150);
     font-size: 14px;
 }
 .ff3{
@@ -839,27 +844,113 @@ h3{
 }
 .farticles li{
     display: block;
+    margin-bottom: 20px;
 }
 
 .fimg img{
     width: 110px;
     height: 60px;
-    display: inline-block;
+    
 }
 .fimg{
-  width: 110px;
-  display: inline;
-  
+    width: 110px;
+    float: left;
 }
-.art1{
-    display:inline-block;
+.artbox{
+    height: 60px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.art1,.art2{
+    width: 150px;
+    font-size: 13px;
+    color: rgb(255,255,255);
 }
 .adate{
     display:block;
+    font-size: 11px;
+}
+.art1:hover,.art2:hover{
+    color: rgb(243,0,103);
+    text-decoration: underline;
+}  
+.ff4{
+    margin-left: 20px;
+    width: 350px;
+}
+
+.nbox{
+    width: 100%;
+    height: auto;
+    margin-top: 32px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    background-color: rgb(72, 81, 92);
+}
+.nname{
+    padding: 20px;
+    color: rgb(255,255,255);
+    font-size: 13px;
+    font-weight: bold;
+}
+.news-bar{ padding: 20px; }
+.ins-email{
+    display: inline-block;
+    background-color: rgb(0,209,205);
+    border-radius: 5px;
+  }
+ 
+  
+.insert-txt{ display: inline-block; }
+.send{
+    display: inline;
+    padding:8px 19px;
+}
+.send a{ color: rgb(255,255,255); }
+.send a:hover{
+    color: rgb(37,43,51);
+}
+.insert-txt input[type="text"]{
+    background-color: rgb(255,255,255);
+    padding: 10px;
+    width: 230px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.insert-txt ::placeholder{ color: rgb(72, 81, 92); }
+.ndesc{
+    padding: 0 20px;
+    font-size: 14px;
+    color: rgb(118, 129, 150);
+}
+.footr2{
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.copyright{
+    display: inline-block;
     
 }
-   
-
+.cpy{
+    color:rgb(118, 129, 150); 
+}
+.w3L{
+    color: rgb(255,255,255);
+}
+.ibck{
+    background-color:rgb(99, 108, 124,0.7);
+    border-radius: 26px;
+}
+.ibck a{
+    padding: 8px 0;
+}
+.footr2 .social{
+    float: right;
+    padding: 0;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
