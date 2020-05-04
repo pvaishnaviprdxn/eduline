@@ -1003,8 +1003,27 @@ h3{
     .slide2 p:nth-child(3),
     .slide2 p:nth-child(4){font-size: 14px;}
 
-}
 
+    .ff1 {
+    margin-right: 30px;
+    width: 140px;
+    }
+    .ff2 {
+    width: 120px;
+    }
+    .ff3 {
+    display: inline-block;
+    }
+    .ff4 {
+    width: 286px;
+    }
+    .news-bar {
+    padding: 18px;
+    }
+    .insert-txt input[type="text"] {
+    width: 171px;
+    }
+}
 @media only screen and (max-width: 995px) {
     .menu{ margin-left: 80px; }
     .slides li h2{ font-size: 30px; }
@@ -1047,8 +1066,14 @@ h3{
     .slide2 p:nth-child(2){font-size: 12px;}
     .slide2 p:nth-child(3),
     .slide2 p:nth-child(4){font-size: 14px;}
-}  
-
+  
+    .ff4 {
+        width: 260px;
+    }
+    .insert-txt input[type="text"] {
+        width: 145px;
+    }
+}
 @media only screen and (max-width: 767px){
     .fas.fa-bars{
         display: inline-block;
@@ -1150,6 +1175,22 @@ h3{
     }
     .slide2 p:nth-child(2){
         padding: 30px 61px;
+    }
+    .ff1
+    {
+        margin-right: 30px;
+        width: 60%;
+    }
+    .location{
+        display: block;
+    }
+    .ff3{
+        width: 325px;
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    .nbox{
+        margin-top: 52px;
     }
 }
 @media only screen and (max-width: 540px){
@@ -1279,6 +1320,43 @@ h3{
     form input[type="password"]{
         width:320px ;
     }
+    .ff3{
+        width: 275px;
+        margin-right: 0;
+    }
+    .ff4{
+        width: 175px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ftitle,.ptitle,.fart-title,.ntitle
+    {
+        font-size: 14px;
+    }
+    .pages li a,
+    .location,
+    .fmail,
+    .fphn,.art1,.art2,.ndesc,.nname{
+        font-size: 12px;
+    }
+    .adate{
+        font-size: 10px;
+    }
+    .insert-txt input[type="text"] {
+        width: 70px;
+        font-size: 8px;
+    }
+    .send {
+        display: inline;
+        padding: 3px 13px;
+    }
+    .footr2 .social{
+        float: none;
+        width: 150px;
+        margin-top: 10px;
+        margin-left:143px;
+    }
+
 }
 @media only screen and (max-width: 320px){
     .signIn{
@@ -1373,4 +1451,36 @@ h3{
         padding: 20px 10px;
         font-size: 12px;
     }
+    .ftitle,.ptitle,.fart-title,.ntitle
+    {
+        font-size: 14px;
+    }
+    .pages ul{
+        margin-top: 10px;
+    }
+    .pages li a,
+    .location,
+    .fmail,
+    .fphn,.art1,.art2{
+        font-size: 12px;
+    }
+    .adate{
+        font-size: 10px;
+    }
+    .artbox{
+        margin-top: 10px;
+        margin-left: 0;}
+    .ndesc{
+        font-size: 12px;
+    }
+    .footr2 .social{
+        float: none;
+        width: 150px;
+        margin-top: 10px;
+        margin-left:25px;
+    }
+    .nname{ font-size: 11px ;}
+    .cpy{font-size: 7.5px;}
+    .footr2 .social li a{font-size: 12px;}
+
 }
