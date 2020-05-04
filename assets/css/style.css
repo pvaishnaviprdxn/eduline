@@ -613,17 +613,17 @@ input[type="text"]{
     width: 50px;
     height: 50px;
     border-radius: 50px;
-    background: white;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .b-bckgnd a{
     padding: 17px;
     color: black;
+    
 }
 
 .fas.fa-chart-line,.far.fa-clock{
-    
+    color: rgb(255,255,255);
 }
 
 .etitle{
@@ -722,7 +722,7 @@ form input[type=submit]:hover{
     background: wheat;
     border-radius: 100px;
     text-align: center;
-    margin-left: 450px;
+    margin: 0 auto;
     margin-top: 50px;
 }
 
@@ -768,13 +768,74 @@ form input[type=submit]:hover{
 
 /*=================================
   footer styling starts here
-=================================*/ 
+=================================*/
+footer{
+    background-color: rgb(37,43,51);
+} 
+.footr1{
+    width: 86%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.footer-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ff1{
+    width:200px;
+}
+h3{
+    margin-bottom: 25px;
+}
+.ff1 h3 a img{
+    width: 80px;
+}
+.Address,
+.femail,
+.fphone{
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.ftitle{
+    color: rgb(0,211,219);
+    font-size: 16px;
+    line-height: 1;
+}
+.location,.fmail,.fphn{
+    color: rgb(96, 99, 104);
+    font-size: 14px;
+    line-height: 1.4;
+}
+.location:hover,.fmail:hover ,.fphn:hover,.pages li a:hover{
+    text-decoration: underline;
+    color: rgb(255,255,255);
+}
 
-
-
-
-
-   
+.fmail,.fphn{
+    display: block;
+}
+.ff2{
+   width:150px;
+}
+.ptitle{
+    color: rgb(255,255,255);
+    font-weight: bold;
+}
+.pages ul{
+    margin-top: 35px;
+}
+.pages li{
+    display: block;
+    font-size: 14px;
+    line-height: 1.8;
+}
+.pages li a{
+    color: rgb(96, 99, 104);
+    font-size: 14px;
+}
+.ff3{
+    width: 250px;
+}
    
    
 
